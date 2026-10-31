@@ -1,0 +1,4 @@
+# Python 3.10, 3.11 or 3.12. Install only ONE OpenCV distribution.
+numpy==1.26.4
+opencv-python==4.10.0.84
+pyserial==3.5

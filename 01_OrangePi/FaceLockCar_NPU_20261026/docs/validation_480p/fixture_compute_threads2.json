@@ -1,0 +1,28 @@
+{
+  "kind": "repeated_real_image_compute_only",
+  "live_camera_acceptance": false,
+  "serial_enabled": false,
+  "source_image": "balance_MJPG_auto_dynamic.jpg",
+  "shape": [
+    480,
+    640,
+    3
+  ],
+  "threads": 2,
+  "elapsed_seconds": 20.011339534999934,
+  "frames": 461,
+  "steady_compute_fps": 23.20760203247157,
+  "fixture_valid_percent": 100.0,
+  "final_window": {
+    "fps": 22.973266687265305,
+    "face_fps": 7.4912826154126,
+    "body_fps": 22.973266687265305,
+    "face_ms": 16.137510130439967,
+    "body_ms": 34.729799956484506,
+    "pipeline_ms": 39.163394130483816,
+    "age_ms": 31.469021000248176,
+    "valid_percent": 100.0
+  },
+  "includes": "face/body/identity/association/display-flow/HUD composition; excludes camera and GUI presentation",
+  "note": "Repeated-image sequence count is not a measured camera frame rate."
+}

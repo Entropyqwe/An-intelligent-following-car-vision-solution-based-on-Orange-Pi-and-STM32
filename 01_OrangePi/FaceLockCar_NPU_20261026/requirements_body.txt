@@ -1,0 +1,2 @@
+# Install alongside the existing project requirements and target NPU runtime.
+Pillow==11.3.0

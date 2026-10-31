@@ -1,0 +1,12 @@
+{
+  "horizontal_fov_deg": 68.57375395441792,
+  "camera_calibration_file": null,
+  "servo_center_us": 1500,
+  "servo_min_us": 1300,
+  "servo_max_us": 1700,
+  "servo_direction": 1,
+  "gain_us_per_degree": 11.0,
+  "bearing_deadband_deg": 1.0,
+  "filter_tau_seconds": 0.06,
+  "max_slew_us_per_second": 800.0
+}
