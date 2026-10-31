@@ -25,6 +25,16 @@ STM32 烧录文件：`02_STM32/STM32F103_SG90_VEHICLE_HOLD3S/Objects/FaceLock_SG
 
 STM32 二进制文件：`02_STM32/STM32F103_SG90_VEHICLE_HOLD3S/Objects/FaceLock_SG90.bin`
 
+#环境依赖
+ 板卡系统  本地镜像 `Orangepizero3w_1.0.2_ubuntu_jammy_desktop_xfce_linux5.15.147`，ARM64 |
+Python  工程约定3.10～3.12；附带离线 NumPy wheel 仅适合CPython3.10 ARM64 |
+Python包 `numpy==1.26.4`、`opencv-python==4.10.0.84`、`pyserial==3.5` |
+MCU STM32F103C8T6，固件按8MHz HSE、72MHz主时钟配置 |
+ 编译  已有 ARM Compiler5 构建脚本与 Keil 工程；直接烧录已有HEX不要求重新编译 |
+
+GUI和headless OpenCV二选一。登记需要图形界面；`requirements-headless.txt` 用于已登记后的无界面部署。不要把 Windows `.venv` 复制到 Linux。
+
+
 ## 文档入口
 
 1. 先读 `启动与排错指南.md`。
