@@ -45,3 +45,9 @@ GUI和headless OpenCV二选一。登记需要图形界面；`requirements-headle
 ## 当前边界
 
 NPU 模型依赖 Orange Pi A733 的 VIPLite、`/dev/vipcore` 和匹配的 `yolov5.nb`。这些系统组件不能用 Windows 文件代替。STM32 使用 ST-Link 烧录；USB-TTL 只用于运行时 USART1 通信，不能拿 TTL 当作烧录入口。
+
+在香橙派中启动视觉程序：cd ~/FaceLockCar_NPU_20261026
+bash run_balanced.sh
+联动程序：cd ~/FaceLockCar_NPU_20261026
+bash run_debug.sh
+STM32烧录使用：E:\FaceLockCar_CURRENT_STABLE\02_STM32\STM32F103_SG90_VEHICLE_HOLD3S\Objects\FaceLock_SG90.hex
