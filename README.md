@@ -34,12 +34,6 @@ MCU STM32F103C8T6，固件按8MHz HSE、72MHz主时钟配置 |
 GUI和headless OpenCV二选一。登记需要图形界面；`requirements-headless.txt` 用于已登记后的无界面部署。不要把 Windows `.venv` 复制到 Linux。
 
 
-## 文档入口
-
-1. 先读 `启动与排错指南.md`。
-2. 需要烧录或换板时读 `STM32烧录与跨平台迁移指南.md`。
-3. 需要确认版本和文件来源时读 `工程版本说明.md`。
-4. 最后核对 `文件清单_SHA256.txt`。
 
 ## 当前边界
 
