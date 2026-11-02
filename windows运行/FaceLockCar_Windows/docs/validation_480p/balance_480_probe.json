@@ -1,0 +1,268 @@
+[
+  {
+    "format": "MJPG",
+    "case": "auto_fixed",
+    "fps": 29.949715494641744,
+    "brightness": 5.361019354926215,
+    "p10_p50_p90": [
+      0.0,
+      2.0,
+      15.0
+    ],
+    "decode_ms": 3.155324249974001,
+    "grab_ms": 28.83210715624074,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 3 (Aperture Priority Mode)\nexposure_time_absolute: 80\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "MJPG",
+    "case": "auto_dynamic",
+    "fps": 8.331268985902746,
+    "brightness": 140.84919959174263,
+    "p10_p50_p90": [
+      14.0,
+      142.0,
+      255.0
+    ],
+    "decode_ms": 8.39661506248035,
+    "grab_ms": 107.76910306250898,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 3 (Aperture Priority Mode)\nexposure_time_absolute: 80\nexposure_dynamic_framerate: 1"
+  },
+  {
+    "format": "MJPG",
+    "case": "manual_10",
+    "fps": 29.885054366826964,
+    "brightness": 242.32783359103735,
+    "p10_p50_p90": [
+      214.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 4.856130156255745,
+    "grab_ms": 25.97213034376722,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 10\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "MJPG",
+    "case": "manual_20",
+    "fps": 30.00003078753385,
+    "brightness": 247.8007453748915,
+    "p10_p50_p90": [
+      235.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 5.575867218723829,
+    "grab_ms": 24.561968624993824,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 20\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "MJPG",
+    "case": "manual_40",
+    "fps": 29.8927024332706,
+    "brightness": 250.63547573513455,
+    "p10_p50_p90": [
+      246.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 6.080282531257808,
+    "grab_ms": 24.176520062489715,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 40\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "MJPG",
+    "case": "manual_80",
+    "fps": 29.997831344279568,
+    "brightness": 252.09270334879557,
+    "p10_p50_p90": [
+      250.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 4.469188125000301,
+    "grab_ms": 26.235030031244833,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 80\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "MJPG",
+    "case": "manual_156",
+    "fps": 30.157435430916557,
+    "brightness": 252.60231252034504,
+    "p10_p50_p90": [
+      250.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 4.477460468734762,
+    "grab_ms": 25.95162137498619,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 156\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "YUYV",
+    "case": "auto_fixed",
+    "fps": 14.983367544294419,
+    "brightness": 2.590638597276476,
+    "p10_p50_p90": [
+      0.0,
+      0.0,
+      8.0
+    ],
+    "decode_ms": 3.001752124959012,
+    "grab_ms": 55.29253287500069,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 3 (Aperture Priority Mode)\nexposure_time_absolute: 156\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "YUYV",
+    "case": "auto_dynamic",
+    "fps": 8.452900062583675,
+    "brightness": 147.43456875271266,
+    "p10_p50_p90": [
+      1.0,
+      172.0,
+      229.0
+    ],
+    "decode_ms": 3.5017729062474245,
+    "grab_ms": 105.67549312500546,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 3 (Aperture Priority Mode)\nexposure_time_absolute: 156\nexposure_dynamic_framerate: 1"
+  },
+  {
+    "format": "YUYV",
+    "case": "manual_10",
+    "fps": 14.906878669177079,
+    "brightness": 248.43655754937066,
+    "p10_p50_p90": [
+      236.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 2.2947299374962427,
+    "grab_ms": 58.48201971877387,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 10\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "YUYV",
+    "case": "manual_20",
+    "fps": 14.927179524956948,
+    "brightness": 250.3600330607096,
+    "p10_p50_p90": [
+      249.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 2.171094000004814,
+    "grab_ms": 58.86183784376442,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 20\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "YUYV",
+    "case": "manual_40",
+    "fps": 14.927987293661753,
+    "brightness": 251.8913805135091,
+    "p10_p50_p90": [
+      249.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 2.172365906240259,
+    "grab_ms": 58.85643959373965,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 40\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "YUYV",
+    "case": "manual_80",
+    "fps": 14.929527916103204,
+    "brightness": 252.86879208034938,
+    "p10_p50_p90": [
+      249.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 2.167521031232411,
+    "grab_ms": 58.871232406239926,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 80\nexposure_dynamic_framerate: 0"
+  },
+  {
+    "format": "YUYV",
+    "case": "manual_156",
+    "fps": 14.92896955373209,
+    "brightness": 252.9987723456489,
+    "p10_p50_p90": [
+      249.0,
+      255.0,
+      255.0
+    ],
+    "decode_ms": 2.2002915000101098,
+    "grab_ms": 58.82927309374253,
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "controls": "gain: 4\nauto_exposure: 1 (Manual Mode)\nexposure_time_absolute: 156\nexposure_dynamic_framerate: 0"
+  }
+]

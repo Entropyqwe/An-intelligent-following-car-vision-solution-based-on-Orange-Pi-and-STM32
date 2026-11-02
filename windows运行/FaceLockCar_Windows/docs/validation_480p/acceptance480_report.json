@@ -1,0 +1,256 @@
+{
+  "passed": false,
+  "checks": {
+    "capture_at_least_640x480": true,
+    "color_3_channels": true,
+    "not_mostly_black_or_white": true,
+    "measurement_at_least_60_seconds": true,
+    "real_processed_fps_at_least_20": false,
+    "npu_person_detection_at_least_20fps": false,
+    "tracking_valid_at_least_90_percent": false,
+    "continuous_valid_at_least_10_seconds": false,
+    "serial_opened_without_output_error": true,
+    "original_steering_enabled": true
+  },
+  "measured": {
+    "processed_frames": 716,
+    "elapsed_seconds": 65.08642699100028,
+    "wall_fps": 11.000757502005813,
+    "warmup_seconds": 2.0,
+    "measured_frames": 689,
+    "steady_wall_fps": 10.921525165758565,
+    "valid_percent": 0.14513788098693758,
+    "mean_pipeline_ms": 35.643478474605125,
+    "mean_host_frame_age_ms": 38.78304715094739,
+    "backend": "VIPLite NPU / YOLOv5",
+    "ui": "telemetry",
+    "target_id": 1,
+    "face_size": 224,
+    "threads": 2,
+    "final_window": {
+      "fps": 8.3338660798084,
+      "camera_fps": 8.3338660798084,
+      "face_fps": 8.3338660798084,
+      "body_fps": 8.3338660798084,
+      "face_ms": 26.63126488235267,
+      "body_ms": 30.44427935302498,
+      "pipeline_ms": 33.45120317651569,
+      "age_ms": 34.08322099994621,
+      "valid_percent": 0.0
+    },
+    "capture_width": 640,
+    "capture_height": 480,
+    "capture_channels": 3,
+    "capture_format": "MJPG",
+    "requested_camera_fps": 30,
+    "observed_capture_fps": 11.000757502005813,
+    "measured_valid_frames": 1,
+    "face_checked_frames": 689,
+    "body_checked_frames": 689,
+    "face_check_fps": 10.921525165758565,
+    "body_detection_fps": 10.921525165758565,
+    "head_detected_frames": 83,
+    "body_detected_frames": 155,
+    "recognized_identity_frames": 33,
+    "mode_frame_counts": {
+      "UNLOCKED": 405,
+      "VERIFY": 4,
+      "FACE": 1,
+      "LOST": 279
+    },
+    "longest_valid_seconds": 0.0,
+    "pipeline_p95_ms": 50.86979819998305,
+    "host_frame_age_p95_ms": 55.32792540016089,
+    "percentile_sample_frames": 689,
+    "quality_samples": [
+      {
+        "mean_luma": 144.19875,
+        "color_fraction": 0.8277083333333334,
+        "dark_fraction": 0.16145833333333334,
+        "clipped_fraction": 0.08583333333333333
+      },
+      {
+        "mean_luma": 144.716875,
+        "color_fraction": 0.8220833333333334,
+        "dark_fraction": 0.16020833333333334,
+        "clipped_fraction": 0.08958333333333333
+      },
+      {
+        "mean_luma": 145.24041666666668,
+        "color_fraction": 0.8408333333333333,
+        "dark_fraction": 0.15645833333333334,
+        "clipped_fraction": 0.08875
+      },
+      {
+        "mean_luma": 144.66354166666667,
+        "color_fraction": 0.841875,
+        "dark_fraction": 0.15395833333333334,
+        "clipped_fraction": 0.085625
+      },
+      {
+        "mean_luma": 144.788125,
+        "color_fraction": 0.8510416666666667,
+        "dark_fraction": 0.155625,
+        "clipped_fraction": 0.08354166666666667
+      },
+      {
+        "mean_luma": 144.29291666666666,
+        "color_fraction": 0.8485416666666666,
+        "dark_fraction": 0.15854166666666666,
+        "clipped_fraction": 0.08208333333333333
+      },
+      {
+        "mean_luma": 143.38208333333333,
+        "color_fraction": 0.8235416666666666,
+        "dark_fraction": 0.15645833333333334,
+        "clipped_fraction": 0.08666666666666667
+      },
+      {
+        "mean_luma": 141.98125,
+        "color_fraction": 0.854375,
+        "dark_fraction": 0.14166666666666666,
+        "clipped_fraction": 0.08520833333333333
+      },
+      {
+        "mean_luma": 140.84625,
+        "color_fraction": 0.8547916666666666,
+        "dark_fraction": 0.14291666666666666,
+        "clipped_fraction": 0.08416666666666667
+      },
+      {
+        "mean_luma": 123.29291666666667,
+        "color_fraction": 0.8745833333333334,
+        "dark_fraction": 0.12520833333333334,
+        "clipped_fraction": 0.07291666666666667
+      },
+      {
+        "mean_luma": 143.74916666666667,
+        "color_fraction": 0.8966666666666666,
+        "dark_fraction": 0.106875,
+        "clipped_fraction": 0.085
+      },
+      {
+        "mean_luma": 143.55645833333332,
+        "color_fraction": 0.8889583333333333,
+        "dark_fraction": 0.11479166666666667,
+        "clipped_fraction": 0.084375
+      },
+      {
+        "mean_luma": 142.819375,
+        "color_fraction": 0.8660416666666667,
+        "dark_fraction": 0.116875,
+        "clipped_fraction": 0.08208333333333333
+      },
+      {
+        "mean_luma": 142.9225,
+        "color_fraction": 0.8808333333333334,
+        "dark_fraction": 0.115625,
+        "clipped_fraction": 0.083125
+      },
+      {
+        "mean_luma": 143.29625,
+        "color_fraction": 0.8797916666666666,
+        "dark_fraction": 0.11479166666666667,
+        "clipped_fraction": 0.081875
+      },
+      {
+        "mean_luma": 142.730625,
+        "color_fraction": 0.8852083333333334,
+        "dark_fraction": 0.118125,
+        "clipped_fraction": 0.081875
+      },
+      {
+        "mean_luma": 142.58333333333334,
+        "color_fraction": 0.8741666666666666,
+        "dark_fraction": 0.124375,
+        "clipped_fraction": 0.08208333333333333
+      },
+      {
+        "mean_luma": 142.62770833333335,
+        "color_fraction": 0.884375,
+        "dark_fraction": 0.11979166666666667,
+        "clipped_fraction": 0.08208333333333333
+      },
+      {
+        "mean_luma": 146.74229166666666,
+        "color_fraction": 0.904375,
+        "dark_fraction": 0.10541666666666667,
+        "clipped_fraction": 0.050833333333333335
+      },
+      {
+        "mean_luma": 120.704375,
+        "color_fraction": 0.930625,
+        "dark_fraction": 0.016875,
+        "clipped_fraction": 0.08625
+      },
+      {
+        "mean_luma": 126.00229166666666,
+        "color_fraction": 0.9391666666666667,
+        "dark_fraction": 0.014375,
+        "clipped_fraction": 0.053125
+      },
+      {
+        "mean_luma": 128.48041666666666,
+        "color_fraction": 0.91125,
+        "dark_fraction": 0.0077083333333333335,
+        "clipped_fraction": 0.08375
+      },
+      {
+        "mean_luma": 51.156875,
+        "color_fraction": 1.0,
+        "dark_fraction": 0.0,
+        "clipped_fraction": 0.0
+      },
+      {
+        "mean_luma": 101.2275,
+        "color_fraction": 0.9660416666666667,
+        "dark_fraction": 0.01,
+        "clipped_fraction": 0.04770833333333333
+      },
+      {
+        "mean_luma": 131.49375,
+        "color_fraction": 0.9785416666666666,
+        "dark_fraction": 0.0,
+        "clipped_fraction": 0.022083333333333333
+      },
+      {
+        "mean_luma": 148.418125,
+        "color_fraction": 0.9866666666666667,
+        "dark_fraction": 0.0,
+        "clipped_fraction": 0.075
+      },
+      {
+        "mean_luma": 123.36104166666667,
+        "color_fraction": 0.9829166666666667,
+        "dark_fraction": 0.0027083333333333334,
+        "clipped_fraction": 0.018333333333333333
+      },
+      {
+        "mean_luma": 121.46270833333334,
+        "color_fraction": 0.9854166666666667,
+        "dark_fraction": 0.009791666666666667,
+        "clipped_fraction": 0.013125
+      },
+      {
+        "mean_luma": 139.4775,
+        "color_fraction": 0.903125,
+        "dark_fraction": 0.004375,
+        "clipped_fraction": 0.10895833333333334
+      },
+      {
+        "mean_luma": 118.36541666666666,
+        "color_fraction": 0.7925,
+        "dark_fraction": 0.030208333333333334,
+        "clipped_fraction": 0.06958333333333333
+      }
+    ],
+    "serial_enabled": true,
+    "steering_enabled": true,
+    "serial_error": null
+  },
+  "limits": [
+    "Color/brightness checks are heuristics, not visual quality certification.",
+    "Serial-open status does not prove MCU acceptance or physical servo movement.",
+    "Percentiles use up to the last 18000 measured frames; averages cover the measured run."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "algorithm": "body-byte-association-v2",
+  "face_models_loaded": false,
+  "registration_required": false,
+  "biometric_identity": false,
+  "gender_inference": false,
+  "processed_frames": 37,
+  "elapsed_seconds": 4.01600000000326,
+  "warmup_seconds": 2,
+  "measured_frames": 21,
+  "steady_wall_fps": 10.416666666649824,
+  "observed_capture_fps": 9.711155378478173,
+  "body_detection_fps": 10.416666666649824,
+  "valid_percent": 0.0,
+  "longest_valid_seconds": 0.0,
+  "mean_pipeline_ms": 73.61904761914741,
+  "mean_host_frame_age_ms": 75.14285714257441,
+  "pipeline_p95_ms": 78.99999999790452,
+  "host_frame_age_p95_ms": 78.99999999790452,
+  "capture_width": 640,
+  "capture_height": 480,
+  "capture_channels": 3,
+  "capture_format": "MJPG requested",
+  "camera_backend": "dshow",
+  "backend": "OpenCV CPU / NanoDet",
+  "ui": "disabled",
+  "target_id": 0,
+  "mode_frame_counts": {
+    "STANDBY": 21
+  },
+  "quality_samples": [
+    {
+      "mean_luma": 105.92625,
+      "color_fraction": 0.4839583333333333,
+      "dark_fraction": 0.0,
+      "clipped_fraction": 0.16
+    },
+    {
+      "mean_luma": 106.65895833333333,
+      "color_fraction": 0.4660416666666667,
+      "dark_fraction": 0.0,
+      "clipped_fraction": 0.16270833333333334
+    }
+  ],
+  "serial_enabled": false,
+  "serial_error": null,
+  "steering_enabled": true,
+  "source_for_valid_body": 2,
+  "threads": 2,
+  "person_confidence": 0.35,
+  "person_low_confidence": 0.1,
+  "tracking": {
+    "public_ids_created": 1,
+    "candidates_created": 1,
+    "recovered": 0,
+    "low_matches": 4,
+    "ambiguous_frames": 37,
+    "expired": 0,
+    "feature_updates": 1,
+    "retained_tracks": 1,
+    "confirmed_tracks": 1
+  },
+  "single_person": {
+    "visible_person_proposals": 4,
+    "slot_ready": false,
+    "single_frames": 0,
+    "multiple_frames": 37,
+    "fast_path_frames": 0,
+    "multi_association_frames": 37,
+    "recovering": false,
+    "meaning": "slot 1 is the sole person, not persistent identity"
+  },
+  "stages": {
+    "pipeline": {
+      "mean_ms": 73.61904761914741,
+      "p95_ms": 78.99999999790452
+    },
+    "frame_age": {
+      "mean_ms": 75.14285714257441,
+      "p95_ms": 78.99999999790452
+    },
+    "detection": {
+      "mean_ms": 69.85714285734242,
+      "p95_ms": 78.99999999790452
+    },
+    "association": {
+      "mean_ms": 3.7619047618049772,
+      "p95_ms": 16.00000000325963
+    },
+    "preprocess": {
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    },
+    "npu_and_copy": {
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    },
+    "postprocess": {
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    },
+    "ui": {
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    }
+  },
+  "final_window": {
+    "fps": 10.0,
+    "camera_fps": 10.0,
+    "face_fps": 0.0,
+    "body_fps": 10.0,
+    "face_ms": 0.0,
+    "body_ms": 70.25000000066939,
+    "pipeline_ms": 73.40000000040163,
+    "age_ms": 77.99999999406282,
+    "valid_percent": 0.0,
+    "appearance_ms": 16.00000000325963
+  }
+}

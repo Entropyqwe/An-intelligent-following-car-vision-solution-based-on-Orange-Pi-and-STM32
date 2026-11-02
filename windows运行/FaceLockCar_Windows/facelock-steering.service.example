@@ -1,0 +1,17 @@
+[Unit]
+Description=FaceLock front-wheel steering
+After=multi-user.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=orangepi
+SupplementaryGroups=video dialout
+WorkingDirectory=/home/orangepi/FaceLockCar_Steering_Integration/FaceLockCar
+# Replace /dev/ttyUSB0 with a verified /dev/serial/by-id/... path if available.
+ExecStart=/home/orangepi/FaceLockCar_Steering_Integration/FaceLockCar/.venv/bin/python -u main.py --camera 0 --body --steering --no-show --target 1 --port /dev/ttyUSB0
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
