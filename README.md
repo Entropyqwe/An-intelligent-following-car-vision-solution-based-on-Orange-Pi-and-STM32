@@ -5,7 +5,7 @@
 ## 目录
 
 * `01_OrangePi/FaceLockCar_NPU_20261026/`：香橙派人体检测、跟踪、中文 HUD、测距显示和 S1 舵机通信程序。
-* `01_OrangePi/models_npu/`：板端 NPU 模型存放位置。当前电脑未能连接香橙派，`yolov5.nb` 需要按目录内说明从板端补入。
+* `01_OrangePi/models_npu/`：板端 NPU 模型存放位置。详情课参考官方手册
 * `02_STM32/STM32F103_SG90_VEHICLE_HOLD3S/`：完整 Keil 工程、源码、引脚配置文件和烧录产物。
 * `03_接线参考/`：单电机验证版、四电机实战版及逐线核对图。
 
@@ -15,8 +15,6 @@
 香橙派程序入口：`01_OrangePi/FaceLockCar_NPU_20261026/body_main.py`
 
 香橙派启动脚本：`01_OrangePi/FaceLockCar_NPU_20261026/run_balanced.sh`
-
-香橙派排错启动脚本：`01_OrangePi/FaceLockCar_NPU_20261026/run_debug.sh`
 
 Keil 工程：`02_STM32/STM32F103_SG90_VEHICLE_HOLD3S/Project_VEHICLE.uvprojx`
 
@@ -48,7 +46,7 @@ NPU 模型依赖 Orange Pi A733 的 VIPLite、`/dev/vipcore` 和匹配的 `yolov
 
     cd ~/FaceLockCar_NPU_20261026
 
-如果板上目录名称不同，请把本目录中的 `01_OrangePi/FaceLockCar_NPU_20261026` 复制为该名称；不要混用旧项目的 `FaceLockCar` 目录。
+如果板上目录名称不同，请把本目录中的 `01_OrangePi/FaceLockCar_NPU_20261026` 复制为该名称；
 
 ### 2. 启动前检查
 
